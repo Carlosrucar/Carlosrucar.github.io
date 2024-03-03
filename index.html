@@ -19,7 +19,7 @@
       <a href="#encuesta" class="menu-item">Encuesta</a>
       <a href="#contacto" class="menu-item">Contacto</a>
     </div>
-    <div class="content">
+    <div id="componentes">
       <h2>Bienvenido a PerifericosGo!</h2>
 
       <div class="gallery" id="galeria">
@@ -37,17 +37,29 @@
         </div>
       </div>
 
-      <div id="componentes">
-     
-        <h2>Sección de Componentes</h2>
-        
-      </div>
-
       <div id="encuesta">
-   
         <h2>Sección de Encuesta</h2>
-   
-      </div>
+
+        <form>
+          <p>¿Cómo calificarías tu experiencia con PerifericosGo?</p>
+          <label>
+            <input type="radio" name="calificacion" value="excelente"> Excelente
+          </label>
+          <label>
+            <input type="radio" name="calificacion" value="bueno"> Bueno
+          </label>
+          <label>
+            <input type="radio" name="calificacion" value="regular"> Regular
+          </label>
+          <label>
+            <input type="radio" name="calificacion" value="malo"> Malo
+          </label>
+
+          <p>¿Qué mejorarías?</p>
+          <textarea name="mejoras"></textarea>
+
+          <button type="submit">Enviar Encuesta</button>
+        </form>
 
       <div id="contacto">
    
