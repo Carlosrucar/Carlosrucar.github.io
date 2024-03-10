@@ -92,3 +92,18 @@ p {
   align-items: center;
   margin-top: 20px;
 }
+
+.menu-item.active {
+  color: #ecf0f1;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+  }
+}
